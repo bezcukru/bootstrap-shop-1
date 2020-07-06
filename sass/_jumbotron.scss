@@ -1,0 +1,15 @@
+.jumbotron {
+    position: relative;
+    color: #fff;
+    .jumbotron-bg {
+    position: absolute;
+    background-image: url('../public/assets/coffee-shop.jpg');
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    }
+}
