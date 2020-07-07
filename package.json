@@ -10,7 +10,8 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --inline --progress --colors --host 0.0.0.0",
-    "build": "webpack"
+    "build": "webpack",
+    "prod": "webpack --config ./webpack.config.prod.js"
   },
   "keywords": [
     "webpack",
@@ -29,10 +30,12 @@
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
     "babel-preset-env": "^1.6.1",
+    "copy-webpack-plugin": "^6.0.3",
     "css-hot-loader": "^1.4.4",
     "css-loader": "^2.1.1",
     "file-loader": "^4.1.0",
     "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
     "node-sass": "^4.12.0",
     "sass-loader": "^6.0.5",
     "style-loader": "^0.18.1",
